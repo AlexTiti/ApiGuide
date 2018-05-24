@@ -33,6 +33,7 @@ class ViewPagerActivity : AppCompatActivity() ,View.OnClickListener{
     }
 
     override fun onClick(v: View?) {
+
         when(v){
             button2 -> adapter.add(OneFragment.newInstance("D","D"))
             button3 -> adapter.insert(1,OneFragment.newInstance("E","E"))
