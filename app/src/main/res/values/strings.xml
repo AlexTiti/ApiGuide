@@ -1,0 +1,17 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ApiGuide</string>
+    <string name="format">Format <xliff:g>%1$d</xliff:g> is <xliff:g>%2$s</xliff:g></string>
+    <string name="welcome_messages">Hello, %1$s! You have &lt;b>%2$d new messages&lt;/b>.</string>
+    <string-array name="array">
+        <item>AAA</item>
+        <item>BBB</item>
+        <item>CCC</item>
+    </string-array>
+
+    <plurals name="plurals">
+        <item quantity="few"> FEW<xliff:g>%1$s</xliff:g></item>
+        <item quantity="two"> TWO<xliff:g>%1$s</xliff:g></item>
+        <item quantity="one"> One<xliff:g>%1$s</xliff:g></item>
+        <item quantity="other"> OTHER<xliff:g>%1$s</xliff:g></item>
+    </plurals>
+</resources>

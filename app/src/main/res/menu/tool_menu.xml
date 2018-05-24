@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/ID"
+        android:title="@string/app_name"
+        android:titleCondensed="A"
+        android:icon="@drawable/ic_launcherp"
+        android:checkable="true"
+        android:actionLayout="@layout/fragment_"
+        app:showAsAction="ifRoom"
+        android:checked="true"/>
+
+    <item android:id="@+id/ID_Next"
+        android:title="@string/app_name"
+        android:titleCondensed="A"
+        android:icon="@drawable/ic_launcherp"
+        android:checkable="true"
+        app:showAsAction="always"
+        android:checked="true"/>
+
+    <group
+        android:id="@+id/g"
+        android:checkableBehavior="single">
+        <item android:id="@+id/group"
+            android:title="Group"
+            app:showAsAction="never"
+            android:checkable="true"
+            android:checked="true"/>
+
+        <item android:id="@+id/group_Next"
+            android:title="Group"
+            app:showAsAction="never"
+            android:checkable="true"
+           />
+    </group>
+
+</menu>
