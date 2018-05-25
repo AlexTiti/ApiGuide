@@ -38,7 +38,7 @@ class ViewPagerActivity : AppCompatActivity() ,View.OnClickListener{
             button2 -> adapter.add(OneFragment.newInstance("D","D"))
             button3 -> adapter.insert(1,OneFragment.newInstance("E","E"))
             button6 -> adapter.replace(2,OneFragment.newInstance("F","F"))
-            button7 -> adapter.remove(OneFragment.newInstance("G","G"))
+            button7 -> adapter.remove(2)
             else -> adapter.notifyDataSetChanged()
         }
     }

@@ -30,7 +30,6 @@ class MyObserver(var lifecycle: Lifecycle, var callback: CallBack) : LifecycleOb
     }
 
     fun p(string: String) {
-        Log.e("AAAAA", string)
         callback.update()
     }
 }
